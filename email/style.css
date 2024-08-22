@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00f5d8;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:url(smile.jpg);
+    opacity: 0.7;
+    background-size:cover ;
+    background-position: center;
+    padding: 10px 10%;
+    color:rgb(0, 255, 255);
+}
+b{
+    font-size: 20px;
+    font-weight: 800;
+}
+.hero h3{
+       margin-top: 15%;
+       font-weight: 400;
+       font-size: 30px;
+}
+.hero h1{
+        font-size: 72px;
+        background: -webkit-linear-gradient(#f70202, #04ffee,#dd0404);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+    margin: 30px;
+    font-size:50px ;
+}
+.container{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid rgb(4, 236, 240);
+    white-space: nowrap;
+    animation: 
+      typing 1.6s forwards;
+    font-size: 0.6rem;
+    width: 0;
+  }
+
+  
+  
+.hero p{
+    margin: 10px 0 50px;
+}
+form{
+    background: #fff;
+    display: flex;
+    width: fit-content;
+}
+form input{
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    height: 70px;
+    width: 400px;
+    font-size: 26px;
+    color: black;
+}
+form button{
+   background: #00f5d8;
+   border: 0;
+    outline: none;
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+  
+}
+span{
+    color: #02fbfb;
+    margin-top: 10px;
+    display: block;
+    font-style:italic;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
